@@ -14,7 +14,7 @@
                 Sistema Académico del Instituto  IESTPH
             </h1>
 
-<P>Programa de Estudio ASPETIC</P>
+<P>Programa de Estudio APSTI</P>
             <p class="mt-4 text-gray-600">
                 Proyecto desarrollado con Laravel y Tailwind CSS.
             </p>
