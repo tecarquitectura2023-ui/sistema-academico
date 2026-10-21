@@ -15,6 +15,9 @@ Route::get('/inicio', [InicioController::class, 'index'])                    // 
 Route::get('/estudiantes', [EstudianteController::class, 'index'])           // Define la ruta /estudiantes y ejecuta el método index del EstudianteController.
     ->name('estudiantes.index');                                             // Asigna un nombre que identifica la lista de estudiantes.
 
+    Route::post('/estudiantes', [EstudianteController::class, 'store'])
+    ->name('estudiantes.store');
+
 Route::get('/estudiantes/{id}', [EstudianteController::class, 'show'])       // Define la ruta /estudiantes/{id}; {id} representa el identificador del estudiante.
         ->name('estudiantes.show');                                          // Asigna un nombre a la ruta que muestra un estudiante específico.
 
